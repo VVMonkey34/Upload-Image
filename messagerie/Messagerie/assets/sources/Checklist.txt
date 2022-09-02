@@ -1,0 +1,22 @@
+**** CHECKLIST ****
+
+-- Modifier fonction backToList() et accessMessage(), pour simuler click sur liste gauche et acces a la conversation droite
+-- Fonction de tri, Liste gauche, afficher uniquement une ligne par personne (pas de doublon).
+-- Fonction de tri, Messages de droite, afficher uniquement les échanges entre un meme duo ( pas tous les messages du tableau).
+-- affichage des dernières conversations.
+-- affichage de la conversation sélectionnée.
+-- affichage date, modification du format type 2022-06-20 06:32:00 vers : uniquement heure si meme jour, ou jour (lundi mardi) si meme semaine, ou date 2022-06-20 si plus loin.
+
+
+    Pour les plus avancées : 
+ - Activer la fonction de recherche ! il faut rechercher dans les messages le texte recherché
+ - Ajouter des messages avec la zone de saisie de la conversation
+ - Version dark mode / fichier dark.css
+
+ 
+ let scrollTopBtn = document.getElementById('top');
+
+scrollTopBtn.addEventListener('click',function(){
+    window.scrollTo({top: 0, behavior:'smooth'});
+});
+

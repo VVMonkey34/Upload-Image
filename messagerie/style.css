@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgba(36, 31, 33, 0.255), rgba(56, 52, 53, 0.255)),url(img/image_home2.webp) no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif!important;
+    
+}
+.bloc_principal{
+    margin:0;
+   
+    position:relative;
+    width:1396px;
+    max-width:100%;
+     /* height:calc(100vh - 10px);  */
+
+}
+
+
+.c_bouton{
+    background-color: #f8bdaf !important;
+}
+
+
+
+.logo{
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+   }
+
+/* --------------- LOGIN ------------------------- */
+
+.light{
+    font-weight: 200;
+}
+
+.form-design{
+    background-color:transparent !important;
+    /* opacity: 0.1; */
+    border: solid gray 1px !important;
+    border-radius: 20px!important;
+    color: white!important;
+}
+
+.bg-saumon{
+    background-color: #FBCEB5!important;
+}
+
+.bg-saumon:hover{
+    background-color: rgb(231, 190, 167)!important;
+}
+
+.text-saumon{
+    color: #FBCEB5!important;
+}
+
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.747)!important;
+}
+
+.btn{
+    border-radius: 30px!important;
+}
+#e6bca6#ecc0a9
+
+
+a, a:link, a:visited, a:active{
+    text-decoration: none!important;
+    color: white!important;
+}
+a:hover{
+    border-bottom: solid white 1px!important;
+}
+
+.form-control{
+    color: white!important;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+/* -------------------------------------------- */
+
+
+
+/* .taille_image{
+    background: url("img/user_logo.png")!important;
+    background-size: cover;
+} */

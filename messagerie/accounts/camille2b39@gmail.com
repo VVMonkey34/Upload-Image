@@ -1,0 +1,1 @@
+{"mail":"camille2b39@gmail.com","pwd":"1234abcD","discussions":["yasmina2b39@gmail.com_1657186444","mina1987@hotmail.fr_2022-07-07 15:06:20","mina1987@hotmail.fr_2022-07-07 15:09:28","mina1987@hotmail.fr_1657201794"],"url":"https:\/\/begoud-camille.e-osengo.fr\/img\/user.jpg","pseudo":"Coquille "}

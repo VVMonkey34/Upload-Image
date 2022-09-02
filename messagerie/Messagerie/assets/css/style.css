@@ -1,0 +1,59 @@
+.hover {
+    border-bottom: solid 10px transparent;
+    transition: ease-in-out .2s;
+}
+
+.hover:hover {
+    border-bottom: solid 8px rgba(255, 255, 255, 0.8);
+    transition: ease-in-out .5s;
+}
+
+.hoverscale:hover {
+    transform: scale(1.10);
+    transition: ease-in-out .2s;
+}
+
+.hovergrey:hover {
+    background-color: rgba(0, 0, 0, 0.100) !important;
+    transition: ease-in-out .2s;
+}
+
+.hovergreen:hover {
+    color: #198754 !important;
+    transition: ease-in-out .2s;
+}
+
+@media screen and (min-width:990px) {
+
+    .bg-turnGreenToGrey {
+        background-color: rgb(230, 230, 230) !important;
+    }
+
+    .color-change {
+        color: rgb(90, 90, 90) !important;
+    }
+
+    .bg-turnInfoToWarning {
+        background-color: #FFF9E6 !important;
+    }
+}
+
+.petite_photo {
+    height: 45px;
+    width: 45px;
+}
+
+figure img {
+    min-width: 55px;
+    min-height: 55px;
+    max-width: 55px;
+    max-height: 55px;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
